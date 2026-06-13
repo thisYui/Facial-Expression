@@ -1,0 +1,64 @@
+{
+  "dataset": "mma",
+  "dataset_mode": "mma-test-7cls-no-contempt",
+  "num_samples": 17356,
+  "labels": [
+    "surprise",
+    "fear",
+    "disgust",
+    "happy",
+    "sadness",
+    "anger",
+    "neutral"
+  ],
+  "overall_accuracy": 0.5671813781977414,
+  "mean_accuracy": 0.4295037573172835,
+  "macro_f1": 0.43167686192165233,
+  "per_class_accuracy": {
+    "surprise": 0.56,
+    "fear": 0.0824891461649783,
+    "disgust": 0.17251908396946564,
+    "happy": 0.7587470232643341,
+    "sadness": 0.45107946715663755,
+    "anger": 0.4207492795389049,
+    "neutral": 0.5609423011266644
+  },
+  "class_counts": {
+    "anger": 1041,
+    "disgust": 655,
+    "fear": 691,
+    "happy": 5459,
+    "neutral": 5858,
+    "sadness": 2177,
+    "surprise": 1475
+  },
+  "skipped_classes": {},
+  "confusion_matrix_labels": [
+    "surprise",
+    "fear",
+    "disgust",
+    "happy",
+    "sadness",
+    "anger",
+    "neutral"
+  ],
+  "layout": {
+    "dataset": "mma",
+    "root": "/kaggle/working/data/mma",
+    "base_dir": "/kaggle/working/data/mma/MMAFEDB",
+    "split": "test",
+    "eval_dir": "/kaggle/working/data/mma/MMAFEDB/test",
+    "class_counts": {
+      "anger": 1041,
+      "disgust": 655,
+      "fear": 691,
+      "happy": 5459,
+      "neutral": 5858,
+      "sadness": 2177,
+      "surprise": 1475
+    },
+    "skipped_classes": {},
+    "num_samples": 17356,
+    "note": "MMAFEDB has train/valid/test class folders."
+  }
+}

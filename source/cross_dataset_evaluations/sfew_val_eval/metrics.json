@@ -1,0 +1,64 @@
+{
+  "dataset": "sfew",
+  "dataset_mode": "sfew-Val-7cls-no-contempt",
+  "num_samples": 431,
+  "labels": [
+    "surprise",
+    "fear",
+    "disgust",
+    "happy",
+    "sadness",
+    "anger",
+    "neutral"
+  ],
+  "overall_accuracy": 0.46867749419953597,
+  "mean_accuracy": 0.38778869697571305,
+  "macro_f1": 0.33983031231746413,
+  "per_class_accuracy": {
+    "surprise": 0.125,
+    "fear": 0.0,
+    "disgust": 0.043478260869565216,
+    "happy": 0.8611111111111112,
+    "sadness": 0.684931506849315,
+    "anger": 0.2857142857142857,
+    "neutral": 0.7142857142857143
+  },
+  "class_counts": {
+    "anger": 77,
+    "disgust": 23,
+    "fear": 46,
+    "happy": 72,
+    "neutral": 84,
+    "sadness": 73,
+    "surprise": 56
+  },
+  "skipped_classes": {},
+  "confusion_matrix_labels": [
+    "surprise",
+    "fear",
+    "disgust",
+    "happy",
+    "sadness",
+    "anger",
+    "neutral"
+  ],
+  "layout": {
+    "dataset": "sfew",
+    "root": "/kaggle/working/data/sfew",
+    "base_dir": "/kaggle/working/data/sfew",
+    "split": "Val",
+    "eval_dir": "/kaggle/working/data/sfew/Val",
+    "class_counts": {
+      "anger": 77,
+      "disgust": 23,
+      "fear": 46,
+      "happy": 72,
+      "neutral": 84,
+      "sadness": 73,
+      "surprise": 56
+    },
+    "skipped_classes": {},
+    "num_samples": 431,
+    "note": "SFEW Test/Test_Aligned_Faces is unlabeled; Val is the labeled evaluation split."
+  }
+}

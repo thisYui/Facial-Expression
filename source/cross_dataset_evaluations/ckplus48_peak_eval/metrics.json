@@ -1,0 +1,31 @@
+{
+  "dataset_mode": "CK+48-6cls-peak-only",
+  "num_samples": 309,
+  "labels": [
+    "surprise",
+    "fear",
+    "disgust",
+    "happy",
+    "sadness",
+    "anger"
+  ],
+  "overall_accuracy": 0.6472491909385113,
+  "mean_accuracy": 0.522622072902857,
+  "macro_f1": 0.5143157592391283,
+  "per_class_accuracy": {
+    "surprise": 0.9518072289156626,
+    "fear": 0.0,
+    "disgust": 0.559322033898305,
+    "happy": 1.0,
+    "sadness": 0.5357142857142857,
+    "anger": 0.08888888888888889
+  },
+  "class_counts": {
+    "happy": 69,
+    "anger": 45,
+    "disgust": 59,
+    "sadness": 28,
+    "fear": 25,
+    "surprise": 83
+  }
+}

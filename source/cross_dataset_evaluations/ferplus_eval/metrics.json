@@ -1,0 +1,68 @@
+{
+  "dataset": "ferplus",
+  "dataset_mode": "ferplus-test-7cls-no-contempt",
+  "num_samples": 3543,
+  "labels": [
+    "surprise",
+    "fear",
+    "disgust",
+    "happy",
+    "sadness",
+    "anger",
+    "neutral"
+  ],
+  "overall_accuracy": 0.668077900084674,
+  "mean_accuracy": 0.5624254736745612,
+  "macro_f1": 0.5305761505246683,
+  "per_class_accuracy": {
+    "surprise": 0.6822222222222222,
+    "fear": 0.3163265306122449,
+    "disgust": 0.2857142857142857,
+    "happy": 0.9451022604951561,
+    "sadness": 0.6792873051224945,
+    "anger": 0.4937888198757764,
+    "neutral": 0.5345368916797488
+  },
+  "class_counts": {
+    "anger": 322,
+    "disgust": 21,
+    "fear": 98,
+    "happy": 929,
+    "neutral": 1274,
+    "sadness": 449,
+    "surprise": 450
+  },
+  "skipped_classes": {
+    "contempt": 30
+  },
+  "confusion_matrix_labels": [
+    "surprise",
+    "fear",
+    "disgust",
+    "happy",
+    "sadness",
+    "anger",
+    "neutral"
+  ],
+  "layout": {
+    "dataset": "ferplus",
+    "root": "/kaggle/working/data/ferplus",
+    "base_dir": "/kaggle/working/data/ferplus",
+    "split": "test",
+    "eval_dir": "/kaggle/working/data/ferplus/test",
+    "class_counts": {
+      "anger": 322,
+      "disgust": 21,
+      "fear": 98,
+      "happy": 929,
+      "neutral": 1274,
+      "sadness": 449,
+      "surprise": 450
+    },
+    "skipped_classes": {
+      "contempt": 30
+    },
+    "num_samples": 3543,
+    "note": "FERPlus has train/validation/test class folders; contempt is skipped."
+  }
+}

@@ -1,0 +1,7 @@
+dataset,dataset_mode,num_samples,overall_accuracy,mean_accuracy,macro_f1,skipped_classes,output_dir
+CK+48-6cls-peak-only,CK+48-6cls-peak-only,309,0.6472491909385113,0.522622072902857,0.5143157592391283,{},/kaggle/working/outputs/ckplus48_peak_eval
+CK+48-7cls-with-neutral,CK+48-7cls-with-neutral,902,0.8248337028824834,0.5790145351453543,0.5372975734972046,{},/kaggle/working/outputs/ckplus48_eval
+affectnet,affectnet-Test-7cls-no-contempt,13206,0.5201423595335454,0.469331883740269,0.43970617210632934,{'Contempt': 1312},/kaggle/working/outputs/affectnet_eval
+ferplus,ferplus-test-7cls-no-contempt,3543,0.668077900084674,0.5624254736745612,0.5305761505246683,{'contempt': 30},/kaggle/working/outputs/ferplus_eval
+mma,mma-test-7cls-no-contempt,17356,0.5671813781977414,0.4295037573172835,0.43167686192165233,{},/kaggle/working/outputs/mma_eval
+sfew,sfew-Val-7cls-no-contempt,431,0.46867749419953597,0.38778869697571305,0.33983031231746413,{},/kaggle/working/outputs/sfew_val_eval

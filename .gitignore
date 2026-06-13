@@ -67,3 +67,7 @@ GEMINI.md
 # Out file
 /*.out
 outputs/toy/*.out
+
+*.zip
+resnet18_msceleb.pth
+scratch/

@@ -1,0 +1,68 @@
+{
+  "dataset": "affectnet",
+  "dataset_mode": "affectnet-Test-7cls-no-contempt",
+  "num_samples": 13206,
+  "labels": [
+    "surprise",
+    "fear",
+    "disgust",
+    "happy",
+    "sadness",
+    "anger",
+    "neutral"
+  ],
+  "overall_accuracy": 0.5201423595335454,
+  "mean_accuracy": 0.469331883740269,
+  "macro_f1": 0.43970617210632934,
+  "per_class_accuracy": {
+    "surprise": 0.6166666666666667,
+    "fear": 0.043870192307692304,
+    "disgust": 0.18509615384615385,
+    "happy": 0.834319526627219,
+    "sadness": 0.6003787878787878,
+    "anger": 0.31664726426076834,
+    "neutral": 0.6883445945945946
+  },
+  "class_counts": {
+    "anger": 1718,
+    "disgust": 1248,
+    "fear": 1664,
+    "happy": 2704,
+    "neutral": 2368,
+    "sadness": 1584,
+    "surprise": 1920
+  },
+  "skipped_classes": {
+    "Contempt": 1312
+  },
+  "confusion_matrix_labels": [
+    "surprise",
+    "fear",
+    "disgust",
+    "happy",
+    "sadness",
+    "anger",
+    "neutral"
+  ],
+  "layout": {
+    "dataset": "affectnet",
+    "root": "/kaggle/working/data/affectnet",
+    "base_dir": "/kaggle/working/data/affectnet/archive (3)",
+    "split": "Test",
+    "eval_dir": "/kaggle/working/data/affectnet/archive (3)/Test",
+    "class_counts": {
+      "anger": 1718,
+      "disgust": 1248,
+      "fear": 1664,
+      "happy": 2704,
+      "neutral": 2368,
+      "sadness": 1584,
+      "surprise": 1920
+    },
+    "skipped_classes": {
+      "Contempt": 1312
+    },
+    "num_samples": 13206,
+    "note": "AffectNet Kaggle input nests data under archive (3); contempt is skipped."
+  }
+}
