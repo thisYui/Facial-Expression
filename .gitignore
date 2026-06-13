@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (large files)
+data/raw/
+data/processed/
+
+# LaTeX build artifacts
+docs/*.aux
+docs/*.bbl
+docs/*.blg
+docs/*.log
+docs/*.out
+docs/*.toc
+docs/*.lot
+docs/*.lof
+docs/*.synctex.gz
+docs/*.fdb_latexmk
+docs/*.fls
+
+
+logs/
+!data/README.md
+
+# benchmark results
+results/plots
+
+# parquet
+*.parquet
+
+test.*
+
+GEMINI.md
+
+# Julia cache
+*.ji
+
+
+# Out file
+/*.out
+outputs/toy/*.out
