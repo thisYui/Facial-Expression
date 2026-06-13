@@ -1,0 +1,68 @@
+\documentclass[12pt]{article}
+
+\usepackage{hcmus-report-template}
+\usepackage{hyperref}
+
+% Disable indentation on new paragraphs
+\setlength{\parindent}{0pt}
+
+% Line spacing 1.5
+\renewcommand{\baselinestretch}{1.5}
+
+% Optional: graphic path
+% \graphicspath{PATH_TO_GRAPHIC_FOLDER}
+
+% To use Times font family, uncomment this row
+% \usepackage{mathptmx}
+
+% To use roman section / subsection, uncomment these rows
+% \renewcommand{\thesection}{\Roman{section}}
+% \renewcommand{\thesubsection}{\thesection.\Roman{subsection}}
+
+% Define course name, report name and report title.
+\newcommand{\coursename}{Nhận dạng mẫu}
+\newcommand{\reportname}{Facial Expression Recognition}
+\newcommand{\reporttitle}{BÁO CÁO ĐỒ ÁN MÔN HỌC}
+
+\newcommand{\studentname}{22120134 - Hoàng Tiến Huy \\23120195 - Lê Hà Thanh Chương \\23120232 - Lê Thượng Đế \\23120245 - Nguyễn Quang Duy \\23120258 - Lưu Trọng Hiếu \\23120260 - Văn Đình Hiếu}
+\newcommand{\teachername}{PGS.TS. Lê Hoàng Thái\\Thầy Nguyễn Thanh Tình}
+
+% Header
+\rhead{
+Trường Đại học Khoa học Tự nhiên - ĐHQG HCM\\
+\coursename
+}
+
+
+% ============ DOCUMENT ============
+\begin{document}
+
+\hypersetup{pageanchor=false}
+\pagenumbering{roman}
+\input{content/title.tex}
+\clearpage
+\hypersetup{pageanchor=true}
+
+\tableofcontents
+\pagebreak
+\listoftables
+\pagebreak
+\listoffigures
+\pagebreak
+\lhead{\reporttitle}
+
+\input{content/glossary.tex}
+\pagebreak
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\input{content/section}
+\input{ref/ref}
+\pagebreak
+% Appendix
+\appendix
+% Add \cleardoublepage to move appendices to next page.
+\input{appendix/appendix.tex}
+
+\end{document}

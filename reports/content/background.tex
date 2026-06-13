@@ -1,0 +1,22 @@
+\section{Kiến thức nền tảng}
+
+Phần này trình bày các khái niệm cần thiết để người đọc có thể theo dõi chương sách, bài báo SOTA và phần thực nghiệm. Nội dung nên được điều chỉnh theo đúng chủ đề nhận dạng đã chọn.
+
+\subsection{Bài toán nhận dạng mẫu}
+Bài toán nhận dạng mẫu thường bao gồm các bước chính: thu nhận dữ liệu, tiền xử lý, trích xuất đặc trưng, học mô hình, suy luận và đánh giá. Tùy mục tiêu, hệ thống có thể được thiết kế cho bài toán phân loại, xác minh, định danh hoặc phát hiện bất thường.
+
+\subsection{Biểu diễn dữ liệu và đặc trưng}
+Trình bày cách biểu diễn dữ liệu đầu vào trong chủ đề đã chọn, ví dụ ảnh khuôn mặt, ảnh vân tay, đặc trưng sinh trắc học, embedding học sâu hoặc descriptor thủ công. Cần làm rõ đặc trưng nào được sử dụng trong chương sách và đặc trưng nào được sử dụng trong bài báo hiện đại.
+
+\subsection{Quy trình tổng quát của hệ thống nhận dạng}
+Một hệ thống nhận dạng điển hình có thể được mô tả bởi các thành phần sau:
+\begin{itemize}
+    \item \textbf{Tiền xử lý:} chuẩn hóa dữ liệu, căn chỉnh, lọc nhiễu hoặc tăng cường dữ liệu.
+    \item \textbf{Trích xuất đặc trưng:} biến đổi dữ liệu thô thành biểu diễn có khả năng phân biệt cao.
+    \item \textbf{Huấn luyện mô hình:} tối ưu tham số dựa trên tập dữ liệu và hàm mục tiêu.
+    \item \textbf{Suy luận:} dự đoán nhãn, tính điểm tương đồng hoặc quyết định chấp nhận/từ chối.
+    \item \textbf{Đánh giá:} đo lường hiệu quả bằng các chỉ số phù hợp với bài toán.
+\end{itemize}
+
+\subsection{Các chỉ số đánh giá}
+Tùy theo bài toán, báo cáo có thể sử dụng Accuracy, Precision, Recall, F1-score, ROC-AUC, Equal Error Rate (EER), False Acceptance Rate (FAR), False Rejection Rate (FRR), Rank-1 Accuracy hoặc mAP. Cần giải thích ý nghĩa của từng chỉ số được dùng trong thực nghiệm.
