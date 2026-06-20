@@ -4,11 +4,7 @@
 
 Đây là đồ án môn học **Nhận dạng mẫu**, tập trung vào chủ đề **Facial Expression Recognition**. Nội dung đồ án bao gồm nghiên cứu lý thuyết từ giáo trình, khảo sát bài báo tiên tiến, phân tích mã nguồn, chạy thực nghiệm và demo minh họa nhận diện cảm xúc khuôn mặt.
 
-Nhóm nghiên cứu chương **Facial Expression** từ giáo trình **Handbook of Biometrics hoặc Handbook of Face Recognition 2nd Edition**
-
-Bên cạnh đó, nhóm chọn bài báo SOTA **Generalizable Facial Expression Recognition**
-
-Mục tiêu chính của đồ án là hiểu được nền tảng lý thuyết của nhận diện biểu cảm khuôn mặt, so sánh với phương pháp hiện đại trong bài báo, đồng thời thực nghiệm lại mã nguồn và đánh giá khả năng tổng quát của mô hình trên các tập dữ liệu khác nhau.
+Nhóm nghiên cứu chương **Facial Expression** từ giáo trình **Handbook of Biometrics hoặc Handbook of Face Recognition 2nd Edition**. Bên cạnh đó, nhóm chọn bài báo SOTA **Generalizable Facial Expression Recognition**
 
 ## 2. Cấu trúc thư mục
 

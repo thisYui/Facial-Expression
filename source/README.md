@@ -10,10 +10,10 @@ While the original codebase only provided the core training logic on RAF-DB (`ou
 
 Below is the layout of the files added or modified in this project:
 ```text
-code/
+Generalizable-FER/
 ├── requirements.txt (NEW: Environment dependencies definition)
-├── notebooks
-│   └── training.ipynb (NEW: Notebook for training & cross-dataset evaluation)
+├── PLAN.md (NEW: Kaggle experiment execution plan)
+├── train_notebook.ipynb (NEW: Notebook for training & cross-dataset evaluation)
 ├── code/
 │   ├── evaluate_ckplus48.py (NEW: Customized CK+48 dataset evaluator)
 │   └── evaluate_cross_dataset.py (NEW: Zero-shot cross-dataset evaluator)
